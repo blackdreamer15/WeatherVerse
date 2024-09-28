@@ -1,18 +1,20 @@
 # WeatherVerse
-
+<!--
 WeatherVerse is a ......
+-->
 
 ## Features
-
+<!--
 - ...
 - ...
 - ...
+-->
 
 ## Project Setup
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.11 or higher
 - pip (Python package installer)
 
 ### Installation
@@ -44,19 +46,32 @@ WeatherVerse is a ......
 
 ### Usage
 
-1. Run the application:
+1. Run the application in development mode:
 
-  ```bash
+```bash
+  reflex run
   ```
+
+The app runs at `http://localhost:3000`.
+
+Reflex prints logs to the terminal. To increase log verbosity to help with debugging, use the --loglevel flag:
+
+```bash
+reflex run --loglevel debug
+```
 
 ## Contributing
 
+<!--
 Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
+-->
 
 ## License
-
+<!--
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+-->
 
 ## Contact
-
+<!--
 For any inquiries or feedback, please contact [yourname@example.com](mailto:yourname@example.com).
+-->
